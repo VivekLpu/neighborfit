@@ -44,6 +44,10 @@ app.post("/api/match", (req, res) => {
   res.json(results.sort((a, b) => b.score - a.score));
 });
 
+app.get("/", (req, res) => {
+  res.send("🚀 NeighborFit API is running.");
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });

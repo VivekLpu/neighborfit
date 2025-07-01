@@ -16,7 +16,7 @@ function App() {
   // Handle form submission and fetch match results
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await axios.post("http://localhost:5000/api/match", form);
+    const res = await axios.post("https://neighborfit-lanl.onrender.com/api/match", form);
     setResults(res.data);
   };
 
