@@ -45,7 +45,7 @@ app.post("/api/match", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("🚀 NeighborFit API is running.");
+  res.send("NeighborFit API is running.");
 });
 
 app.listen(PORT, () => {
