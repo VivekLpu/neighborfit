@@ -20,17 +20,16 @@ NeighborFit is a full-stack web application that helps users find neighborhoods 
 | Frontend  | React + Tailwind CSS |
 | Backend   | Node.js + Express   |
 | API Comm  | Axios               |
-| Hosting   | (Optional) Netlify / Render |
-| Database  | None (Hardcoded dataset for demo) |
+| Hosting   |  Netlify / Render |
 
 ---
 
 ## 🧠 Matching Algorithm
 
 Each neighborhood has 3 parameters:
-- `safety` (1–10)
-- `greenery` (1–10)
-- `affordability` (1–10)
+- safety (1–10)
+- greenery (1–10)
+- affordability (1–10)
 
 User input weights these preferences, and the app computes a **weighted average** score for each neighborhood:
 
@@ -116,20 +115,11 @@ neighborfit-app/
 │   └── package.json
 
 
-🔍 Reflection & Improvements
-✅ Proof of concept works with mock data
-
-🔄 Can integrate real-time APIs (e.g., Google Places, OSM) in future
-
-📈 Possibility to scale with MongoDB & authentication
-
-🌐 Deployment (Optional)
+🌐 Deployment 
 Frontend: Netlify
 
 Backend: Render
 
-Contact for walkthrough if needed.
 
 📬 Author
 Vivek Kumar
-GitHub | LinkedIn
